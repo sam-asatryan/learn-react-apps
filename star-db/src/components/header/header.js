@@ -10,7 +10,7 @@ const Header = () => {
                     Star DB
                 </a>
             </h3>
-            <ul>
+            <ul className="d-flex">
                 <li>
                     <a href="#">People</a>
                 </li>
