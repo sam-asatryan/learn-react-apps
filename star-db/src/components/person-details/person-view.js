@@ -1,4 +1,5 @@
 import React from 'react';
+import ErrorButton from "../error-button";
 
 const PersonView = ({ person: { id, name, gender, birthYear, eyeColor } }) => {
     return (
@@ -22,6 +23,10 @@ const PersonView = ({ person: { id, name, gender, birthYear, eyeColor } }) => {
                     <li className="list-group-item">
                         <span className="term">Eye Color</span>
                         <span>{ eyeColor }</span>
+                    </li>
+                    <li className="list-group-item">
+                        <br/>
+                        <ErrorButton />
                     </li>
                 </ul>
             </div>
