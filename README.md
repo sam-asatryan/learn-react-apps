@@ -1,4 +1,5 @@
 My React Applications
 -
-- star-db
-- todo list
+- todo list - react concepts
+- star-db - getting data from API-s
+- redux-sandbox - react-redux
